@@ -1,13 +1,11 @@
 {
   "name": "burn-contrib-banner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "modules for banner zipper and screen capture backup images",
   "main": "index.js",
   "scripts": {
-    "test": "hello world"
-  },
-  "config": {
-    "size": "dasdf"
+    "test": "hello world",
+    "preinstall": "nmp install -g burn-contrib-banner"
   },
   "bin": {
     "burn": "bin/burn.js"
