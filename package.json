@@ -1,0 +1,39 @@
+{
+  "name": "burn-contrib-banner",
+  "version": "1.0.3",
+  "description": "modules for banner zipper and screen capture backup images",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello world"
+  },
+  "config": {
+    "size": "dasdf"
+  },
+  "bin": {
+    "burn": "bin/burn.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdgilang/burn-contrib-banner.git"
+  },
+  "keywords": [
+    "banner",
+    "html5",
+    "backup",
+    "image"
+  ],
+  "author": "kdgilang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdgilang/burn-contrib-banner/issues"
+  },
+  "homepage": "https://github.com/kdgilang/burn-contrib-banner#readme",
+  "devDependencies": {
+    "webshot": "^0.18.0",
+    "zip-dir": "^1.0.2"
+  },
+  "dependencies": {
+    "webshot": "^0.18.0",
+    "zip-dir": "^1.0.2"
+  }
+}
