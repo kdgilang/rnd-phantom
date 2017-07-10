@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 // global variable
-const zipper = require('../lib/zipper.js')
 const printer = require('../lib/printer.js')
 
 // initial 
@@ -13,12 +12,4 @@ function init() {
 		selector = (array[5] !== undefined) ? array[5] : "#banner" 
 	})
 	printer.init(delay, folders, selector)
-	if(iszipper === "true") {
-		delay = parseInt(delay) + 5000
-		setTimeout(function () {
-			zipper.init(folders)
-		}, delay)
-	}
-}
-
-init()
+} init()
