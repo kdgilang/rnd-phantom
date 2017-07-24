@@ -1,6 +1,6 @@
 {
   "name": "burn-contrib-banner",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "modules for banner zipper and screen capture backup images",
   "main": "index.js",
   "scripts": {
