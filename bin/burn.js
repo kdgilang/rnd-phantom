@@ -15,9 +15,9 @@ function init() {
 	iszip = (argv.z !== undefined) ? argv.z : (argv.zip !== undefined) ? argv.zip : true
 	iscapture = (argv.c !== undefined) ? argv.c : (argv.capture !== undefined) ? argv.capture : true
 	selector = (argv.s !== undefined) ? argv.s : (argv.selector !== undefined) ? argv.selector : "#banner"
-
+	quality = (argv.q !== undefined) ? argv.q : (argv.quality !== undefined) ? argv.quality : 75
 	if(iscapture === true) {
-		printer.init(delay, folder, selector, iszip)
+		printer.init(delay, folder, selector, iszip, quality)
 	} else {
 		zipper.init(folder)
 	}

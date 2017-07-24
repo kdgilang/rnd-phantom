@@ -1,6 +1,6 @@
 {
   "name": "burn-contrib-banner",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "modules for banner zipper and screen capture backup images",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,6 @@
     "url": "https://github.com/kdgilang/burn-contrib-banner/issues"
   },
   "homepage": "https://github.com/kdgilang/burn-contrib-banner#readme",
-  "devDependencies": {
-    "gifencoder": "^1.1.0",
-    "webshot": "^0.18.0",
-    "zip-dir": "^1.0.2"
-  },
   "dependencies": {
     "gifencoder": "^1.1.0",
     "minimist": "^1.2.0",

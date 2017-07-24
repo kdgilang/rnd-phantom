@@ -13,6 +13,7 @@ go to the root work directory and type command
 - turn on zip feature (boolean) `--zip` / `-z`
 - trun on capture feature (boolean) `--zip` / `-z`
 - selector element to be burn (selector DOM) `--selector` / `-s`
+- determine image quality (int) `--quality` / `-q`
 
 ### Example Parameters Usage: 
-`>> burn -d 10000 -f "drive/folder_target" -z true -c false -s #container`
+`>> burn -d 10000 -f "drive/folder_target" -z true -c false -s #container -q 100`
