@@ -1,11 +1,11 @@
 ## Burn Contrib Banner ##
 
-### NPM Install: 
+### NPM Install 
 `>> npm install -g burn-contrib-banner`
 
 ### Basic Usage
-go to the root work directory and type command:
-`>> burn`
+go to the root work directory and type command
+`>> burn` then hit enter
 
 ### Parameters 
 - waiting for the end frames of banners (milisecond) `--delay` / `-d`
