@@ -1,10 +1,10 @@
 ## Burn Contrib Banner ##
 
-### NPM Install 
->> npm install -g burn-contrib-banner --save-dev
+### NPM Install: 
+`>> npm install -g burn-contrib-banner`
 
 ### Basic Usage
-go to the root work directory and run below
+go to the root work directory and type command:
 `>> burn`
 
 ### Parameters 
