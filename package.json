@@ -26,10 +26,13 @@
   },
   "homepage": "https://github.com/kdgilang/burn-contrib-banner#readme",
   "devDependencies": {
+    "gifencoder": "^1.1.0",
     "webshot": "^0.18.0",
     "zip-dir": "^1.0.2"
   },
   "dependencies": {
+    "gifencoder": "^1.1.0",
+    "minimist": "^1.2.0",
     "webshot": "^0.18.0",
     "zip-dir": "^1.0.2"
   }
