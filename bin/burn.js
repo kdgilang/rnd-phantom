@@ -25,6 +25,10 @@ function init() {
 		case 'agif':
 			agif.init(args)
 		break;
+		case 'gif':
+			args.range = 1
+			agif.init(args)
+		break;
 		case 'zip':
 			zipper.init(args)
 		break;

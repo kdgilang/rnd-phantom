@@ -8,6 +8,8 @@ go to the root work directory and type command
 `>> burn` then hit enter
 
 ### Parameters 
+- type of burn (string) `--type / -t`
+- numbers of image png to be gif `--range / -r` (agif only)
 - waiting for the end frames of banners (milisecond) `--delay` / `-d`
 - folders banners (array separate ",") `--folder` / `-f`
 - turn on zip feature (boolean) `--zip` / `-z`
@@ -17,3 +19,9 @@ go to the root work directory and type command
 
 ### Example Parameters Usage: 
 `>> burn -d 10000 -f "drive/folder_target" -z true -c false -s #container -q 100`
+
+#### Backup image as gif 
+`>> burn -t gif`
+
+#### Backup image as animation gif 
+`>> burn -t agif`
