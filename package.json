@@ -25,15 +25,15 @@
     "url": "https://github.com/kdgilang/burn-contrib-banner/issues"
   },
   "homepage": "https://github.com/kdgilang/burn-contrib-banner#readme",
+  "directories": {
+    "lib": "lib"
+  },
   "dependencies": {
     "gifencoder": "^1.1.0",
     "minimist": "^1.2.0",
     "png-file-stream": "^1.0.0",
     "webshot": "^0.18.0",
     "zip-dir": "^1.0.2"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "devDependencies": {}
 }
