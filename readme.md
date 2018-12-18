@@ -1,17 +1,17 @@
 ## Burn Contrib Banner ##
 
 ### NPM Install 
-`>> npm install -g burn-contrib-banner`
+`npm install -g burn-contrib-banner`
 
 ### Basic Usage
 go to the root work directory and type command
-`>> burn` then hit enter
+`burn` then hit enter
 
 ### Parameters 
 - type of burn (string) `--type / -t`
 - numbers of image png to be gif `--range / -r` (agif only)
-- waiting for the end frames of banners (milisecond) `--delay` / `-d`
-- folders banners (array separate ",") `--folder` / `-f`
+- waiting for the end frames of the banners timelines (milisecond) `--delay` / `-d`
+- banner directory (array separate ",") `--folder` / `-f`
 - turn on zip feature (boolean) `--zip` / `-z`
 - trun on capture feature (boolean) `--zip` / `-z`
 - selector element to be burn (selector DOM) `--selector` / `-s`
