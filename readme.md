@@ -1,4 +1,4 @@
-## Burn Contrib Banner ##
+## Global node package for compiling banner's asstes ##
 
 ### NPM Install 
 `npm install -g burn-contrib-banner`
